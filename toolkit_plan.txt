@@ -1,0 +1,51 @@
+==================================================
+PERSONAL MINI-TOOLKIT PROJECT PLAN
+==================================================
+
+1. CHOSEN TOOLS & DESCRIPTIONS
+--------------------------------------------------
+Tool 1: To-Do List Manager
+Description: Allows the user to add new tasks, view their current task list, and remove completed tasks while the program runs.
+
+Tool 2: Simple Calculator
+Description: Performs basic arithmetic operations (addition, subtraction, multiplication, and division) on two numbers entered by the user.
+
+Tool 3: Number-Guessing Game
+Description: Challenges the user to guess a secret number between 1 and 20 within a limited number of attempts, giving "too high" or "too low" hints.
+
+
+2. EXACT MENU TEXT
+--------------------------------------------------
+========================================
+   WELCOME TO YOUR PERSONAL MINI-TOOLKIT
+========================================
+Please choose a tool from the menu below:
+1. To-Do List Manager
+2. Simple Calculator
+3. Number-Guessing Game
+4. Quit
+
+Enter your choice (1-4): 
+
+
+3. PROGRAMMING CONCEPTS USED PER TOOL
+--------------------------------------------------
+Main Menu Loop:
+- While loop (keeps the menu running until the user selects Option 4 to Quit)
+- Conditionals: if / elif / else (routes user choices and catches invalid inputs gracefully)
+- f-strings (displays clear prompts and error messages)
+
+Tool 1 (To-Do List Manager):
+- List (stores tasks dynamically using .append() and .pop()/.remove())
+- Loops (while loop for the sub-menu; for loop with enumerate() to display numbered tasks)
+- Conditionals (if / elif / else to handle adding, viewing, removing, or empty list checks)
+- f-strings (formats the task list output and confirmation messages)
+
+Tool 2 (Simple Calculator):
+- Conditionals (if / elif / else to select the math operation and prevent division by zero)
+- f-strings (prints the formatted equation and final result clearly)
+
+Tool 3 (Number-Guessing Game):
+- Loop (while loop to let the user keep guessing until they win or run out of attempts)
+- Conditionals (if / elif / else to check if the guess is too high, too low, or exact)
+- f-strings (tells the user how many attempts remain and displays win/loss messages)
